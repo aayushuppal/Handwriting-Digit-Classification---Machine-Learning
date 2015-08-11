@@ -17,8 +17,7 @@ Hybrid Bayes-Neural Network	| At output layer, Guassian RV features	| 93.27%
 Each pixel of the input image is used as features to the models. A single hidden layer model with sigmoid units is used. The weights of neural network are learnt using back-propagation algorithm and regularization is implemented to prevent over-fitting. Effects of various hyper-parameters of the neural network on its accuracy are also presented.
 
 ###Hybrid Bayer-Neural Network (Guassian features)<br>
-(Accuracy when connected at hidden layer: 91.63% )<br>
-(Accuracy when connected at output layer: 93.27% )<br>
+(Accuracy : 93.27% )<br>
 
 The network is built on the motivation that intermediate layers or output layer of the neural network can be considered as the features extracted from the input. These features are then considered independent nodes of naive bayes network. The nodes of the neural network are considered to be guassian random varialbe features. Parameter estimation for all the features are done using likelihood method.<br>Classification is done with this constructed naive bayes model.<br>The connection between the bayes and neural network is tested both at hidden layer and output layer.
 
@@ -32,7 +31,3 @@ The network is built on the motivation that intermediate layers or output layer 
 ![Model_Accuracy](/results/conf_matrix_nn_bayes_hid.png)
 **Bayes-Neural Network (at output layer, Multinoulli RV features)**
 ![Model_Accuracy](/results/conf_matrix_nn_bayes_out.png)
-**Bayes-Neural Network (at hidden layer, Guassian RV features)**
-![Model_Accuracy](/results/conf_matrix_norm_nnbayes_hid.png)
-**Bayes-Neural Network (at output layer, Guassian RV features)**
-![Model_Accuracy](/results/conf_matrix_norm_nn_bayes_out.png)
