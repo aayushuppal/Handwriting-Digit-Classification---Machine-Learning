@@ -1,4 +1,4 @@
-# Handwritten-Digits-Classification
+# Hybrid Multi Layer Perceptron Neural Network for Classification of Handwritten Digits
 A novel appraoch to classify handwritten digits and comparison with traditional methods.
 Classified MNIST dataset of handwritten digits through Multilayer Perceptron (MLP) feed forward and back
 propagation algorithm. Accuracy ~ 96% on test data. Incorporated regularization on weights and tuned hyper-parameters
@@ -28,6 +28,4 @@ The network is built on the motivation that intermediate layers or output layer 
 **Naive Bayes**
 ![Model_Accuracy](/results/conf_matrix_naive_bayes.png)
 **Bayes-Neural Network (at hidden layer, Multinoulli RV features)**
-![Model_Accuracy](/results/conf_matrix_nn_bayes_hid.png)
-**Bayes-Neural Network (at output layer, Multinoulli RV features)**
 ![Model_Accuracy](/results/conf_matrix_nn_bayes_out.png)
